@@ -1,0 +1,735 @@
+@-moz-document url-prefix("https://bdsmlr.com/dashboard"), url-prefix("https://bdsmlr.com") {
+/* 
+    To change the background image to your liking, replace the part within the () with an actual URL to an image.
+    The image size is dependend on your screen resolution.
+    You can use an image provider like IMGUR to upload and use any image you want.
+*/
+html {
+    background: url(https://w.wallhaven.cc/full/39/wallhaven-391ko6.jpg) no-repeat center center fixed;
+}
+/*
+    Here you can change the main color of the design.
+    To change it, just click on the little colored square and select any color you want.
+    Optionally, you can replace the hex code (#xxxxxx) with a copied one
+*/
+:root {
+    --maincolor: #981515;
+}
+/*
+    DO NOT FORGET TOP SAVE, BEFORE LEAVING THE EDITOR
+*/
+}
+
+@-moz-document url-prefix("https://bdsmlr.com/dashboard"), url-prefix("https://bdsmlr.com") {
+html {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: inherit;
+}
+body {
+    background: rgba(0, 0, 0, 0.6);
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* Heeader */
+.header {
+    border-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.header a.logo img {
+    opacity: 0.1;
+}
+.header .menu ul > li i {
+    color: rgba(255, 255, 255, 0.3) !important;
+    opacity: inherit;
+}
+.m_home #counter {
+    border-radius: 50%;
+    background: var(--maincolor);
+    font-weight: 400;
+    height: 22px;
+    width: 22px;
+    text-align: center;
+    line-height: 18px;
+}
+.header .search {
+    position: absolute;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.header .search input {
+    background: rgba(0, 0, 0, 0.2);
+    border: 0;
+    color: #fff;
+    font-weight: 300;
+}
+
+/* Feed */
+.content .newsfeed .feed .news {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.content .newsfeed .feed .news.panel .post_content .post_info {
+    margin-bottom: 0;
+}
+.content .newsfeed .feed .news.panel .post_content .post_info a {
+    color: #fff !important;
+}
+.content .newsfeed .feed .news.panel .post_content .post_info i {
+    color: var(--maincolor) !important;
+}
+.postfooter {
+    min-height: auto !important;
+}
+.postfooter .earlycomments {
+    margin-bottom: 0;
+    padding: 0 10px;
+}
+.postfooter .earlycomments .singlecomment {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.originalposter {
+    margin-top: 10px;
+}
+.post_content img {
+    border-radius: 14px;
+    padding: 10px;
+}
+.post_content blockquote {
+    color: #fff;
+}
+.post_content .earlycomments a {
+    color: #ccc;
+    font-weight: 400;
+}
+.post_content .earlycomments .ndata {
+    color: #ccc;
+    font-weight: 400;
+}
+.post_content .earlycomments {
+    color: #868686;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+}
+.post_content .textcontent {
+    color: #868686;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+}
+.fa-tags {
+    display: none;
+}
+.tags a.tag {
+    color: #494949;
+    margin-right: 5px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2px 5px;
+    border-radius: 3px;
+    margin: 0 5px 3px 0;
+    display: inline-block;
+}
+.tags a.tag:hover {
+    color: #fff;
+}
+.fas.likesheart {
+    color: var(--maincolor) !important;
+}
+#likecontainer i {
+    font-size: 18px !important;
+}
+.singlecomment,
+.singlecomment a,
+.singlecomment span {
+    color: #fff !important;
+    font-weight: 300 !important;
+}
+.singlecomment img {
+    padding: 0;
+    border-radius: 3px;
+}
+.singlecomment p {
+    color: #fff !important;
+    background-color: transparent !important;
+}
+.activityunits {
+    color: #626262 !important;
+    font-weight: 300;
+    border-bottom: 1px solid rgba(0,0,0,0.2) !important;
+}
+.activityunits:hover {
+    background: transparent !important;
+}
+.activityunits a {
+    color: #fff;
+    font-weight: 300;
+}
+.activityunits:hover a {
+    color: var(--maincolor) !important;
+}
+.activityunits a.ndata {
+    margin-left: 20px;
+}
+.activityunits img{
+    border-radius: 3px;
+}
+
+/* Menu */
+.content .newsfeed .feed .news {
+    min-height: inherit;
+}
+.content .newsfeed .feed .news .create ul.post-triggers li a i.black,
+.content .newsfeed .feed .news .create ul.post-triggers li a i.light-red,
+.content .newsfeed .feed .news .create ul.post-triggers li a i.orange,
+.content .newsfeed .feed .news .create ul.post-triggers li a i.light-green,
+.content .newsfeed .feed .news .create ul.post-triggers li a i.light-blue,
+.content .newsfeed .feed .news .create ul.post-triggers li a i.violet,
+.content .newsfeed .feed .news .create ul.post-triggers li a i.gray {
+    color: rgba(255, 255, 255);
+    margin-bottom: 0px;
+    padding: 16px;
+}
+.content .newsfeed .feed .news .create ul.post-triggers li a:hover i {
+    color: var(--maincolor);
+    padding: 16px;
+}
+.content .newsfeed .feed .news .create ul.post-triggers li a span {
+    display: none;
+}
+.profilemenu.loaded {
+    right: 0;
+    overflow-x: hidden;
+}
+.activitymenuholder,
+.menumessageholder {
+    position: fixed;
+    right: 0;
+    overflow-x: hidden;
+}
+.header .menu ul .selection {
+    border-bottom: 12px solid var(--maincolor) !important;
+}
+.profilemenu {
+    background: rgba(0,0,0,0.4);
+    border-radius: 0;
+    margin-top: 19px;
+    color: #fff;
+}
+.profilemenu a {
+    color: #fff !important;
+    opacity: 1 !important;
+}
+.profilemenu a:hover {
+    color: var(--maincolor) !important;
+    background: none !important;
+}
+.profilemenu .postcount:hover {
+    background: none !important;
+}
+.profilemenu .counts {
+    color: var(--maincolor) !important;
+}
+.profilemenu .rightblog.menu-up i {
+    min-width: 22px;
+}
+.profilemenu .nameblogholder:hover {
+    padding: 0;
+}
+.menumessageholder {
+    background: rgba(0,0,0,0.4) !important;
+    border-radius: 0 !important;
+    margin-top: 19px !important;
+    box-shadow: none !important;
+}
+.menumessageholder .messagethreadtop {
+    border-bottom: 1px solid rgba(0,0,0,0.5) !important;
+}
+.menumessageholder .usermessagenametop {
+    color: #fff !important;
+}
+.menumessageholder .latestmsg {
+    color: #ccc !important;
+}
+.activitymenuholder {
+    background: rgba(0,0,0,0.4) !important;
+    border-radius: 0 !important;
+    margin-top: 19px !important;
+    box-shadow: none !important;
+}
+.activitymenuholder .commentsallhref {
+    color: #fff !important;
+    background: none !important;
+}
+.activitymenuholder .latestnotes {
+    color: #fff !important;
+}
+.activitymenuholder .topactivity {
+    background: rgba(0,0,0,0.5);
+}
+.activitymenuholder .dateStatus {
+    color: var(--maincolor);
+    border-bottom: 1px solid rgba(0,0,0,0.8);
+}
+.activitymenuholder .followsquarecss {
+    transition: linear 0.3s;
+}
+.activitymenuholder .followsquarecss:hover {
+    color: var(--maincolor) !important;
+}
+.activitymenuholder .nameact.ndata {
+    color: #fff;
+    font-weight: 400;
+}
+.profilemenu .topprofilelink {
+    background: none !important;
+}
+.profilemenu .menu-up:hover {
+    background: none !important;
+}
+
+/* Follows */
+.allfollows {
+    background: rgba(0,0,0,0.4) !important;
+    color: #fff;
+}
+.allfollows .title {
+    color: var(--maincolor);
+    border-bottom: 2px solid rgba(0,0,0,0.8) !important;
+}
+.allfollows hr {
+    border-top: 2px solid rgba(0,0,0,0.8) !important;
+}
+
+/* Messages */
+.messagebox {
+     background: rgba(0,0,0,0.4) !important;
+    box-shadow: none;
+    right: 80px;
+}
+.chatmsgs div:nth-child(odd) .onemessage {
+    background: rgba(0,0,0,0.6) !important;
+    color: #fff;
+}
+.chatmsgs div:nth-child(even) .onemessage {
+    background: rgba(0,0,0,0.6) !important;
+    color: #fff;
+}
+.chatmsgs div:nth-child(even) .msgimg {
+    float: right;
+    margin: 0 10px 0 0;
+}
+.messagebox .emojionearea, .messagebox .emojionearea.form-control {
+    background: rgba(0,0,0,0.4);
+    border: none;
+    border-top: 1px solid #fff;
+    overflow-x: hidden;
+    border-radius: 0;
+    color: #fff !important;
+}
+.messagebox .emojionearea:focus, 
+.messagebox .emojionearea.form-control:focus,
+.messagebox .emojionearea:active, 
+.messagebox .emojionearea.form-control:active,
+.messagebox .emojionearea .emojionearea-editor:focus,
+.messagebox .emojionearea .emojionearea-editor:active {
+    box-shadow: none !important;
+}
+.messagebox .emojionearea .emojionearea-editor {
+    overflow-x: hidden !important;
+    color: #fff !important;
+}
+.messagebox .timecb {
+    color: var(--maincolor);
+}
+.messagebox .nameholderchat.ndata {
+    color: #fff;
+}
+.messagebox .convohead {
+    border-bottom: 1px solid rgba(0,0,0,0.4);
+}
+
+/* Sidebar */
+.sidebar .rightblog.sideblogs {
+    margin-top: 0;
+}
+.sidebar .rightblog {
+    padding: 0;
+}
+.rightblog.sideblogs .info {
+    background: rgba(0, 0, 0, 0.3) !important;
+}
+.sidebar .update,
+.sidebar .appnotice {
+    background: rgba(0, 0, 0, 0.3) !important;
+    border-radius: 3px;
+}
+.sidebar .suggestiontitle {
+    color: #fff;
+    font-weight: 300;
+    border-bottom: 2px solid var(--maincolor);
+}
+.sidebar .rightbloglist .nameblogholder img {
+    border-radius: 3px
+}
+.sidebar .rightbloglist .nameblogholder .rightwrap {
+    background: transparent;
+    padding: 0px;
+    margin-bottom: 3px;
+    margin-top: 0px;
+    min-height: 37px;
+    color: #fff;
+    line-height: 36px;
+    text-align: right;
+}
+.sidebar .rightbloglist .nameblogholder .rightwrap.selectedblog {
+    background: transparent !important;
+    padding-right: 10px;
+    color: var(--maincolor);
+    border-right: 2px solid var(--maincolor);
+}
+.sidebar .rightbloglist .nameblogholder:hover {
+    padding: 0;
+    padding-right: 10px;
+    border-right: 2px solid #fff;
+}
+.sidebar .rightbloglist .nameblogholder .rightwrap b {
+    font-weight: 400;
+}
+.sidebar .followsbutton {
+    color: rgba(0,0,0,0.3);
+    transition: linear 0.3s;
+    margin-left: 50px;
+}
+.sidebar .followsbutton:hover {
+    color: var(--maincolor);
+}
+.sidebar .suggestionholder {
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.sidebar .suggestionholder:hover {
+    background: transparent !important;
+}
+.sidebar .suggestionholder:hover .sugname {
+    color: #fff;
+}
+.sidebar .GroupSwitch,
+.sidebar .Tagsearch{
+    background: rgba(0,0,0,0.3) !important;
+    font-weight: 300;
+}
+.randomwrap .footerside {
+    background: rgba(0,0,0,0.5) !important;
+}
+
+/* Scroll up*/
+.fa-arrow-circle-up {
+    bottom: 10px;
+    z-index: 99999;
+    color: rgba(255, 255, 255, 0.1);
+    position: fixed;
+    right: 10px;
+    font-size: 2em;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 3px;
+    transition: linear 0.3s;
+    left: inherit;
+}
+.fa-arrow-circle-up:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* Custom Scrollbar */
+body::-webkit-scrollbar-track,
+#activitymenuholder::-webkit-scrollbar-track,
+.menumessageholder::-webkit-scrollbar-track,
+.chatmsgs::-webkit-scrollbar-track,
+.messagebox .emojionearea .emojionearea-editor::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3) !important;
+    background-color: #F5F5F5 !important;
+}
+
+body::-webkit-scrollbar,
+#activitymenuholder::-webkit-scrollbar,
+.menumessageholder::-webkit-scrollbar,
+.chatmsgs::-webkit-scrollbar,
+.messagebox .emojionearea .emojionearea-editor::-webkit-scrollbar
+{
+    width: 6px !important;
+    background-color: #F5F5F5 !important;
+}
+
+body::-webkit-scrollbar-thumb,
+.menumessageholder::-webkit-scrollbar-thumb,
+#activitymenuholder::-webkit-scrollbar-thumb,
+.chatmsgs::-webkit-scrollbar-thumb,
+.messagebox .emojionearea .emojionearea-editor::-webkit-scrollbar-thumb
+{
+    background-color: var(--maincolor) !important;
+    border-radius: 0 !important;
+    border: none !important;
+}
+
+.tooltipster-box {
+    background: rgba(0,0,0,0.8) !important;
+    overflow-x: hidden;
+}
+.tooltipster-content {
+    overflow-x: hidden;
+}
+.tooltipster-content .followbutton {
+    margin: 4px 4px 0 0 !important;
+    border: 0 !important;
+    background: rgba(0,0,0,0.5) !important;
+}
+.tooltipster-content .blogtitle {
+    color: #fff !important;
+}
+.tooltipster-content .blogname {
+    margin: 4px 0 0 4px !important;
+    font-weight: 400;
+}
+
+/* Modal */
+.reblogcontent {
+    border-radius: 6px;
+    background: rgba(0,0,0,0.4);
+    padding: 20px;
+}
+.lingulo-select div.lg-select span {
+    color: #fff
+}
+.cbuttons {
+    text-decoration: none;
+    text-shadow: none;
+    margin-left: 0px;
+    border-color: var(--maincolor);
+    background-color: var(--maincolor);
+    border-radius: 3px;
+    transition: linear 0.3s;
+}
+.cbuttons:hover {
+    background-color: #fff;
+    border-color: #fff;
+    color: var(--maincolor);
+}
+.cbuttonc {
+    background-color: #848484;
+    border: 1px solid #717171;
+    color: #ffffff;
+    margin-right: 0;
+    text-shadow: none;
+    border-radius: 3px;
+    transition: linear 0.3s;
+}
+.cbuttonc:hover {
+    background-color: var(--maincolor);
+    border: 1px solid var(--maincolor);
+    color: #ffffff;
+    margin-right: 0;
+    text-shadow: none;
+    border-radius: 3px
+}
+.photobuttonholder {
+    padding-bottom: 8px;
+}
+.photobuttonholder #photohide {
+    width: 40% !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    text-transform: capitalize !important;
+    color: white !important;
+    text-shadow: none !important;
+    background-color: #848484 !important;
+    border-radius: 6px !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+.photobuttonholder #photohide:hover {
+    bottom: 0 !important;
+    opacity: 1 !important;
+    background: #fff !important;
+    color: var(--maincolor) !important;
+}
+.photobuttonholder .loadphotos.uploadbutton {
+    width: 40% !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    text-transform: capitalize !important;
+    color: white !important;
+    text-shadow: none !important;
+    background-color: var(--maincolor) !important;
+    border-radius: 6px !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+.photobuttonholder .uploadbutton:hover {
+    bottom: 0 !important;
+    opacity: 1 !important;
+    background: #fff !important;
+    color: var(--maincolor) !important;
+}
+.photobuttonholder div:nth-of-type(3) {
+    background: transparent !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    padding-top: 13px;
+}
+.sweet-alert {
+    border-radius: 6px;
+    background: rgba(0,0,0,0.4);
+}
+.sweet-alert h2,
+.sweet-alert p {
+    color: #fff;
+}
+.reblogcontent {
+    color: #fff;
+}
+.reblogcontent .post_info {
+    margin: 0 0 10px 0;
+    display: block;
+}
+.post_info #selectblog {
+    color: #000;
+}
+.dropzone .dz-message {
+    margin-top: 10px;
+    background: #525151;
+    border: 1px dashed #888;
+}
+.photopostup #Tagsphoto,
+.reblogcontent #Tags {
+    margin-top: 10px;
+}
+.photodescription {
+    padding: 10px;
+}
+.newcommentsubmit {
+    color: #000;
+}
+.newcommentholder .newcommentsubmit {
+    color: #fff;
+}
+.newnotification {
+    height: 42px;
+    border-radius: 3px;
+    color: #d0d0d0;
+    margin-bottom: 2px;
+    line-height: 42px;
+    background: rgba(0,0,0,0.4) !important;
+}
+.logo img {
+    content:url("https://i.imgur.com/AEpI3U8.png");
+    opacity: 1 !important;
+    height: 50px;
+    margin-top: 8px;
+}
+input[type=text] {
+    color: #000 !important; 
+}
+button[type=submit] {
+    color: #000 !important;
+}
+.addphotos {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    background: rgba(0,0,0,0.4);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.news.panel {
+    background: rgba(0,0,0,0.4);
+    color: #fff;
+}
+.namefollowerholder {
+    border-bottom: 1px solid rgba(0,0,0,0.6);
+}
+.namefollowerholder:nth-child(odd) {
+    background: rgba(0,0,0,0.6);
+}
+.followdesc {
+    color: #a2a2a2;
+}
+.namefollowerholder:hover {
+    background: rgba(0,0,0,0.8);
+}
+.titlefollow {
+    padding-left: 10px;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 2px 2px 0 0;
+    font-size: 30px!important;
+    font-weight: 600;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(0,0,0,0.8)!important;
+}
+.searchblogswrapper {
+    background: rgba(0,0,0,0.4);
+}
+.searchblogsinput {
+    background: rgba(0,0,0,0.4);
+    color: #fff !important;
+}
+.searchblogsinput:focus,
+.searchblogsinput:active,
+.searchblogsinput:-internal-autofill-selected {
+    background: rgba(0,0,0,0.4);
+    color: #fff !important;
+}
+.selectionwrapper {
+    background: transparent !important;
+}
+.tabs {
+    background: rgba(0,0,0,0.4) !important;
+    border: 0 !important;
+}
+.tabprimary {
+    background: var(--maincolor) !important;
+    border: 0 !important;
+}
+.tabs:hover {
+    background: var(--maincolor) !important;
+}
+.leftli a,
+.rightli a {
+    background: var(--maincolor) !important;
+    border: 0 !important;
+    border-radius: 3px !important;
+    margin: 0 !important;
+    transition: linear 0.3s;
+}
+.leftli a:hover,
+.rightli a:hover {
+    background: #fff !important;
+    color: var(--maincolor) !important;
+    border: 0 !important;
+    border-radius: 3px !important;
+    margin: 0 !important;
+}
+.followuserbutton {
+    background: rgba(0,0,0,0.8);
+    border: 1px solid #343434;
+    transition: linear 0.3s;
+}
+.followuserbutton:hover {
+    background: var(--maincolor);
+    border: 1px solid var(--maincolor);
+}
+.submitcommentnew {
+    background: var(--maincolor);
+    color: white;
+}
+.submitcommentnew:hover {
+    background: #fff;
+    color: var(--maincolor);
+    transition: linear 0.3s;
+}
+}
