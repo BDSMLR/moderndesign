@@ -5,7 +5,7 @@
     You can use an image provider like IMGUR to upload and use any image you want.
 */
 html {
-    background: url(https://w.wallhaven.cc/full/39/wallhaven-391ko6.jpg) no-repeat center center fixed;
+    background: url(https://w.wallhaven.cc/full/ox/wallhaven-oxqd29.jpg) no-repeat center center fixed;
 }
 /*
     Here you can change the main color of the design.
@@ -13,7 +13,7 @@ html {
     Optionally, you can replace the hex code (#xxxxxx) with a copied one
 */
 :root {
-    --maincolor: #981515;
+    --maincolor: #2dd7da;
 }
 /*
     DO NOT FORGET TOP SAVE, BEFORE LEAVING THE EDITOR
@@ -117,6 +117,10 @@ body {
     color: #868686;
     font-weight: 400 !important;
     font-size: 14px !important;
+}
+.post_content .earlycomments p {
+    background: none !important;
+    color: #fff !important;
 }
 .post_content .textcontent {
     color: #868686;
